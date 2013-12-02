@@ -10,9 +10,12 @@ var port = process.env.PORT || 5000;
 express.createServer(function (request, response) {
 //app.get('/', function(request, response) {
 
-    console.log('trigger '+ request.url);
+    console.log('GET request at: '+ request.url);
     var rootPath = '.',
-        filePath = rootPath+request.url;
+        defaultPath = './index.html',
+        filePath = request.url ==="/"? 
+                        defaultPath : 
+                        rootPath + request.url;
 
     fs.exists(filePath, function(exists) {
         console.log('exists '+ filePath);
