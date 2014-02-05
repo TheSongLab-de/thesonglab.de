@@ -1,0 +1,15 @@
+body { padding-top: 70px; }
+
+div.detail-picture{
+	text-align: center;
+}
+img.detail-picture{
+  float:right;
+}
+@media screen and (max-width:700px)
+{
+	img.detail-picture{      
+		float: none;
+		text-align: center;
+	}
+}

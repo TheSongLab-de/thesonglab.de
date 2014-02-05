@@ -11,8 +11,8 @@ express.createServer(function (request, response) {
 //app.get('/', function(request, response) {
 
     console.log('GET request at: '+ request.url);
-    var rootPath = '.',
-        defaultPath = './index.html',
+    var rootPath = './app',
+        defaultPath = './app/index.html',
         filePath = request.url ==="/"? 
                         defaultPath : 
                         rootPath + request.url;
@@ -22,20 +22,26 @@ express.createServer(function (request, response) {
         if (exists) {
             fs.readFile(filePath, function(error, content) {
                 if (error) {
+                    console.log('500 '+ filePath);
+
                     response.send(500);
                 }
                 else {
+                    console.log('mime '+ filePath);
                     var contentType = mimeLookup.lookup(filePath);
                     // response.set('Content-Type',contentType);
                     // response.send(200,content);
 
+                    console.log('200 '+ filePath);
                     response.writeHead(200, { 'Content-Type': contentType });
                     response.end(content, 'utf-8');
                 }
             });
         }
         else {
-            response.send(200, filePath);
+            console.log('404 '+ filePath);
+            response.status(404).send('Not found');
+            //response.send(404, filePath);
         }
     });
 }).listen(port);
