@@ -1,4 +1,4 @@
-body { padding-top: 70px; }
+
 
 div.detail-picture{
 	text-align: center;
@@ -12,4 +12,7 @@ img.detail-picture{
 		float: none;
 		text-align: center;
 	}
+}
+.languages-flag{
+    width: 30px;
 }

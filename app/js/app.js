@@ -1,6 +1,7 @@
-var pableteApp = angular.module('pableteApp', [
-  'ngRoute',
-  'pableteControllers'
+
+
+var pableteApp = angular.module('theSongLab-app', [
+  'ngRoute'
 ]);
  
 pableteApp.config(['$routeProvider',
@@ -19,8 +20,8 @@ pableteApp.config(['$routeProvider',
         controller: 'ArtistCtl'
       }).
       when('/producer', {
-        templateUrl: 'partials/producer.html',
-        controller: 'ProducerCtl'
+        templateUrl: 'partials/wip.html',
+        controller: 'WipCtl'
       }).
       when('/about', {
         templateUrl: 'partials/about.html',
@@ -30,7 +31,18 @@ pableteApp.config(['$routeProvider',
         templateUrl: 'partials/recordings.html',
         controller: 'RecordingsCtl'
       }).
+      when('/wip', {
+        templateUrl: 'partials/wip.html',
+        controller: 'WipCtl'
+      }).
       otherwise({
         redirectTo: '/home'
       });
   }]);
+
+require.config({
+    baseUrl: "/js",
+    paths: {
+        "nevernull": "lib/nn-0.0.6.min"
+    }
+  });
