@@ -1,9 +1,11 @@
 {
     "nav": {
+        "alias": "Musiker",
         "about": "Uber mich",
         "teacher": "Der Lehrer",
         "artist": "Der Musiker",
-        "producer": "The SongLab"
+        "producer": "The SongLab",
+        "sections": "Page map"
     },
     "home": {
         "banners": {
@@ -26,18 +28,19 @@
         "sections": {
             "teacher": {
                 "title": "Der Lehrer",
-                "text": "",
-                "button": "Lehrnen"
+                "subTitle": "Staatlich geprüfter Leiter für Popularmusik",
+                "text": "10 Jahre Erfahrung im Unterrichten von Kindern, Jugendlichen und Erwachsenen",
+                "button": "Erfahren"
             },
             "artist": {
                 "title": "Der Musiker",
                 "text": "",
-                "button": "Anhören"
+                "button": "Erfahren"
             },
             "producer": {
                 "title": "Musikproduktion",
                 "text": "",
-                "button": "Kreieren"
+                "button": "Erfahren"
             }
         }
     },

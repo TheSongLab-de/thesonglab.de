@@ -16,3 +16,27 @@ img.detail-picture{
 .languages-flag{
     width: 30px;
 }
+
+.artist-container {
+    height: 350px;
+}
+
+.artist-home {
+    position: absolute;
+    left: 100%;
+    top:0px;
+    z-index: -1;
+    height: 80%;
+    margin-left: -50%;
+}
+.artist-button{
+
+    position: absolute;
+    top: 280px;
+    right:25%;
+    z-index: -1;
+}
+
+.footer-text{
+    text-align: center;
+}
