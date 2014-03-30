@@ -1,7 +1,8 @@
 
 
 var pableteApp = angular.module('theSongLab-app', [
-  'ngRoute'
+  'ngRoute',
+  'angular-carousel'
 ]);
  
 pableteApp.config(['$routeProvider',
@@ -27,9 +28,15 @@ pableteApp.config(['$routeProvider',
         templateUrl: 'partials/about.html',
         controller: 'AboutCtl'
       }).
+      when('/contact', {
+        templateUrl: 'partials/contact.html',
+        controller: 'ContactCtl'
+      }).
       when('/recordings', {
-        templateUrl: 'partials/recordings.html',
-        controller: 'RecordingsCtl'
+        templateUrl: 'partials/wip.html',
+        controller: 'WipCtl'
+//        templateUrl: 'partials/recordings.html',
+//        controller: 'RecordingsCtl'
       }).
       when('/wip', {
         templateUrl: 'partials/wip.html',

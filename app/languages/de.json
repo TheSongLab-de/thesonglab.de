@@ -1,28 +1,29 @@
 {
     "nav": {
         "alias": "Musiker",
-        "about": "Uber mich",
+        "about": "Über mich",
         "teacher": "Der Lehrer",
         "artist": "Der Musiker",
         "producer": "The SongLab",
-        "sections": "Page map"
+        "contact": "Kontakt",
+        "sections": "Übersicht"
     },
     "home": {
         "banners": {
             "banner1": {
-                "title": "Under construction notice.",
-                "content": "Hi there! This page is under construction so please appologize any missing piece.",
+                "title": "Noch nicht fertig! - Internet-Baustelle",
+                "content": "Diese Seite befindet sich zur Zeit im Aufbau. Danke für Dein Verständnis.",
                 "button": ""
             },
             "banner2": {
-                "title": "This is me",
-                "content": "This is a short story of how I got here, in case you are interested",
+                "title": "Das bin ich",
+                "content": "Ein paar Zeilein über mein Leben, wenn ihr dran interessiert seid, etwas über mich zu erfahren. ",
                 "button": "Bio!"
             },
             "banner3": {
-                "title": "Recordings",
-                "content": "Visit my recordings section to listen to my latest.",
-                "button": "Hear some Music!"
+                "title": "Audio",
+                "content": "Besuche meinen Audio-Bereich für die neusten Aufnahmen.",
+                "button": "Klicken zum Hören!"
             }
         },
         "sections": {
@@ -57,9 +58,9 @@
     },
     "artist": {
         "banner": {
-            "title": "Recordings",
-            "content": "Visit my recordings section to listen to my latest.",
-            "button": "Hear some Music!"
+            "title": "Live Performer",
+            "content": "Gitarrist + Sänger",
+            "button": ""
         },
         "content": [
         "Die Kombination aus einer warmen und manchmal auch schrillen Stimme mit feinsinnigen und virtuosen Gitarrenpassagen repräsentieren seine Soloauftritte. Als E-Gitarrist überzeugt er durch seine leidenschaftliche Ausdrucksweise in Verbindung mit hervorragendem technischen Können. Sowohl als Künstler als auch als Mensch ist er stolz darauf, dass er seinen Ursprung und seine Wurzeln in sich trägt und dass der kulturelle Austausch ihn bereichert hat. Er ist stets offen für neue Eindrücke. Seit kurzem ist er in Berlin und geht mit viel Energie neue Projekte an und taucht in die große künstlerische Szene ein, die diese wichtige europäische Hauptstadt bietet."
@@ -67,9 +68,9 @@
     },
     "producer": {
         "banner": {
-            "title": "",
+            "title": "Musik & Soundproduction",
             "content": "",
-            "button": ""
+            "button": "Erfahren"
         },
         "content": ""
     },
@@ -83,10 +84,12 @@
     },
     "teacher": {
         "banner": {
-            "title": "",
-            "content": "",
+            "title": "Gitarre & Gesang",
+            "content": "Ziel ist es, nicht nur eine neue Sprache zu erlernen, sondern sich in dieser Sprache auszudrücken und unterhalten zu können und eigenen Ideen zu entwickeln. Lass dich von meiner Freude für die Musik anstecken!",
             "button": ""
         },
-        "content": ""
+        "content": [
+            "Lasst uns lernen in dieser Sprache zu reden und lasst uns dies tun, wie wir unsere Muttersprache erlernt haben. Niemand wurde geboren und konnte lesen und schreiben, wir alle haben mit Lauten und Gesten begonnen, die uns ausreichten, um uns verständlich zu machen. Als wir lernten die ersten Wörter zu Sätzen zu verbinden, hat niemand beabsichtigt, aus uns Radiosprecher oder Chefredakteure einer Zeitung zu machen. Wir hatten die Freiheit, Fehler zu machen und uns dabei zu amüsieren. Insofern man Spass an der Sprache hat, werden wir die Notwendigkeit verspüren, die Art und Weise kennenzulernen,wie man Ideen aufschreibt, um besseren Zugang zu mehr Information zu haben. Aber das ist nicht notwendigerweise eine Regel, denn es gibt Menschen die sich durch ihr Gedächtnis und ihr gutes Gehör hevorheben, was ihnen ermöglicht, auf Papier und Bildschirm zu verzichten und trotzdem ein optimales Ergebnis in der Ausübung und Kommunikation zu erreichen. Nun ja, meine 10-jährige Erfahrung im Unterrichten von Musik zeigte mir, dass es nicht eine alleinige Art gibt, Wissen zu vermitteln. Aber die Neugier ist der Antrieb, der uns mehr und besser lernen lässt. Und wenn noch Ehrgeiz hinzukommt, kann das Ergebnis wirklich exzellent sein."
+        ]
     }
 }

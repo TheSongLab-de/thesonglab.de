@@ -1,43 +1,9 @@
-
-  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:300" >
-    <!-- Indicators -->
-    <div class="carousel-inner">
-      <div class="item active" style="height:300" >
-        <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/banners/escalera.small.jpg">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>{{"artist.banner.title" | translate}}</h1>
-            <p>{{"artist.banner.content" | translate}}</p>
-            <p><a class="btn btn-lg btn-primary" href="#/recordings" role="button">{{"artist.banner.button" | translate}}</a></p>
-          </div>
-        </div>
-      </div>
+<div class="detail-content">
+    <div class="detail-picture">
+        <img class="detail-artist detail-main detail-picture">
     </div>
-  </div><!-- /.carousel -->
 
-  <div>
-    <div class="detail-picture"><img src="img/partials/live.small.jpg" class="detail-picture"></div>
-
-      <p ng-repeat="line in ('artist.content'|translate)">{{ line }}</p>
-      <!--
-Aktuelle Projekte:
-<ul>
-<li>MateClub (es begann in München und wird in Berlin fortgesetzt)</li>
-<li>The SongLab</li>
-<li>Dúo Violín & Guitarra con Juan Roque Alsina.</li>
-<li>Postal - “Solo Album”</li>
-</ul>
-
-Influencias: 
-<ul>
-<li>Marcelo Rivero (primer Profe de guitarra)</li>
-<li>Titi Rivarola</li>
-<li>Carlos Cánovas</li>
-<li>Luis Borda</li>
-<li>Ricardo Havenstein</li>
-<li>Geoff Goodman</li>
-<li>Omar Belmonte </li>
-</ul>-->
-    </div>
-  </div>
+    <h3>{{"artist.banner.title" | translate}}</h3>
+    <h4>{{"artist.banner.content" | translate}}</h4>
+    <p ng-repeat="line in ('artist.content'|translate)">{{ line }}</p>
+</div>
