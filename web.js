@@ -12,7 +12,7 @@ express.createServer(function (request, response) {
 
     console.log('GET request at: '+ request.url);
     var rootPath = './app',
-        defaultPath = './app/index.html',
+        defaultPath = './app/default.html',
         filePath = request.url ==="/"? 
                         defaultPath : 
                         rootPath + request.url;
