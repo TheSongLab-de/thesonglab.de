@@ -16,6 +16,10 @@
 
 }
 
+.navbar-wrapper{
+    margin-top: 0px !important;
+}
+
 
 //images
 .img-XXXX{
@@ -43,10 +47,10 @@
     background-image: url("/amazon/img/banners/contact.small.jpg");
 }
 .img-banner-construction{
-    background-image: url("/amazon/img/banners/construction.jpg");
+    background-image: url("/amazon/img/banners/werkbank2.jpg");
 }
 .img-banner-recordings{
-    background-image: url("/amazon/img/banners/recordings.JPG");
+    background-image: url("/amazon/img/banners/audio.jpg");
 }
 .img-banner-escalera{
     background-image: url("/amazon/img/banners/escalera.small.jpg");
